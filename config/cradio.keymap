@@ -96,19 +96,19 @@
 
         default_layer {
             bindings = <
-&mt LS(LGUI) Q  &kp W        &kp E        &kp R          &kp T        &kp Y     &kp U          &kp I        &kp O        &kp P
-&bhm LCTRL A    &bhm LALT S  &bhm LGUI D  &bhm LSHIFT F  &kp G        &kp H     &bhm RSHIFT J  &bhm RGUI K  &bhm RALT L  &kp SEMI
-&bhm LSHIFT Z   &cut         &copy        &paste         &kp B        &kp N     &kp M          &kp COMMA    &kp DOT      &bhm RSHIFT FSLH
-                                          &lt 1 ESC      &kp SPACE    &kp BSPC  &lt 2 ENTER
+&none  &none  &none  &none      &none        &none     &none        &none  &none     &none
+&none  &kp Q  &kp L  &kp G      &kp D        &kp H     &kp U        &kp O  &kp SEMI  &none
+&none  &kp I  &kp R  &kp S      &kp T        &kp N     &kp E        &kp A  &kp C     &none
+                     &lt 1 ESC  &kp SPACE    &kp BSPC  &lt 2 ENTER
             >;
         };
 
         right_layer {
             bindings = <
-&dt1           &dt2           &dt3          &dt4          &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0
-&kp C_BRI_DEC  &kp C_BRI_INC  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE    &kp LARW  &kp DARW  &kp UARW  &kp RARW  &kp TAB
-&mkp MB1       &mkp MB2       &mkp MB3      &mkp MB4      &mkp MB5      &trans    &trans    &trans    &trans    &kp LALT
-                                            &trans        &trans        &trans    &trans
+&none  &none              &none  &none   &none     &none   &none      &none  &none      &none
+&none  &kp SINGLE_QUOTE   &kp V  &kp W   &kp M     &kp F   &kp COMMA  &kp Z  &kp SLASH  &none
+&none  &kp DOUBLE_QUOTES  &kp J  &kp P   &kp K     &kp B   &kp DOT    &kp X  &kp Y      &none
+                                 &trans  &trans    &trans  &trans
             >;
         };
 
