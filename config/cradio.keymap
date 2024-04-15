@@ -27,6 +27,11 @@
             key-positions = <25 26>;
             bindings = <&kp LG(BSPC)>;
         };
+        combo_nuke_word {
+            timeout-ms = <50>;
+            key-positions = <26 27>;
+            bindings = <&kp LA(BSPC)>;
+        };
         combo_sl_1 {
             timeout-ms = <50>;
             key-positions = <13 14>;
