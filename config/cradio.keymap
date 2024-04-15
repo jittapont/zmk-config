@@ -22,6 +22,11 @@
             key-positions = <16 17>;
             bindings = <&kp ESC>;
         };
+        combo_nuke_line {
+            timeout-ms = <50>;
+            key-positions = <25 26>;
+            bindings = <&kp LG(BSPC)>;
+        };
         combo_sl_1 {
             timeout-ms = <50>;
             key-positions = <13 14>;
