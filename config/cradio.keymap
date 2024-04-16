@@ -168,10 +168,10 @@
 
         tri_layer {
             bindings = <
-&sys_reset   &kp N1  &trans  &trans      &bt BT_SEL 0    &trans  &trans  &trans  &trans  &sys_reset
+&sys_reset   &kp N1  &trans  &trans      &bt BT_SEL 0    &to ALPHA1  &trans  &trans  &trans  &sys_reset
 &bootloader  &trans  &trans  &trans      &bt BT_SEL 1    &trans  &trans  &trans  &trans  &bootloader
 &trans       &trans  &trans  &bt BT_CLR  &bt BT_SEL 2    &trans  &trans  &trans  &trans  &trans
-                             &to ALPHA1      &trans          &trans  &trans
+                             &trans      &trans          &trans  &trans
             >;
         };
 
