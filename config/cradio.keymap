@@ -187,8 +187,8 @@
         alpha_2 {
             bindings = <
 &none        &none        &none        &none        &none            &to DEFAULT     &none        &none        &none        &none
-&none        &kp V        &kp W        &kp M        &none            &none    &kp F        &kp SQT      &kp Z        &none
-&none    &bhm LSHIFT Q    &kp J        &kp P        &kp K            &none    &kp B        &kp DOT      &kp X       &bhm RSHIFT Y
+&none        &kp V        &kp W        &kp M        &none            &none    &kp F        &kp SQT      &kp Z        &trans
+&bhm LSHIFT Q    &kp J        &kp P        &kp K    &none            &none    &kp B        &kp DOT      &kp X       &bhm RSHIFT Y
                                 &trans    &trans      &trans      &trans
             >;
         };
